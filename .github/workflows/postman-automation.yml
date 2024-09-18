@@ -16,5 +16,5 @@ jobs:
         run: npm install -g newman
 
       - name: Run Postman collection
-        run: newman run PruebaManu.postman_collection.json -r html,cli
+        run: newman run PruebaManu.postman_collection.json -r html,cli 
 
